@@ -1,4 +1,4 @@
-# Assignment 2: Zebra Finch Call-Type Classification
+# Course Deep Learning: project 2
 
 ## Background
 
@@ -57,11 +57,3 @@ You can find more details in the given file `Library_notes.pdf`.
 
 * Pick suitable metrics to report your final model's performance on the held-out test set
 * Select a suitable approach to interpretate your model performance and behavior
-
-Submit a single Jupyter Notebook (.ipynb) that runs top-to-bottom without errors. All plots and outputs must be pre-rendered (i.e. run all cells before submitting).
-
-## Tips
-
-* The class distribution is uneven. Addressing this imbalance (e.g. through loss weighting or oversampling) is likely to improve your model's performance, especially on rarer call types
-* Recordings vary considerably in length. You will need to pad shorter clips and/or trim longer ones to a fixed duration
-* For the audio preprocessing, you may use any of the approaches introduced in the lab session, or look for methods specifically designed for bird or animal vocalisations
